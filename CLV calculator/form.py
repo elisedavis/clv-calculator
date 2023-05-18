@@ -4,7 +4,7 @@ from calc import calculate
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8277341ae6e7914ce05b29ca1e13a399'
+app.config['SECRET_KEY'] = 'SECRET_KEY'
 
 user_data = {
     'user_percentile': '',
