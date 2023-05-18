@@ -69,12 +69,10 @@ def calculate(api_key,email,threshold):
         "accept": "application/json",
         "revision": "2023-02-22",
         "content-type": "application/json",
-        "Authorization": "Klaviyo-API-Key pk_7fa7c93d506aabbe3c0a034c74ab3250f8"
+        "Authorization": "Klaviyo-API-Key API-KEY"
+#         Add API key for account that will send the email
     }
 
     response = requests.post(url, json=payload, headers=headers)
 
     # print(response.text)
-
-
-# calculate('pk_7fa7c93d506aabbe3c0a034c74ab3250f8','elise.d93@gmail.com',10)
